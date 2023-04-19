@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <style>
+    body{
+      background-color: aqua;
+      font-size: 12px;}
+  </style>
+</head>
+<body>
+  <!--Contact details-->
+  <div>
+    <h1>My Contact Details</h1>
+    <p>My Fictional Address</p>
+    <p>08038324467</p>
+    <p>myemail@gmail.com</p><hr>
+  </div>
+  <!--Form section-->
+  <div>
+    <form action="/index.html/mailto:nathjones39@gmail.com" method="get" enctype="text/plain" autocomplete="on">
+      <label for="name">Name:</label>
+        <input type="text" name="name"><br><br>
+      <label for="email">Email:</label>
+        <input type="email" name="email" ><br><br>
+      <label for="phone number">Phone Number:</label>
+        <input type="number"><br><br>
+      <label for="gender">Gender:</label><br><br>
+        <input type="radio" name="gender" value="Male">
+      <label for="gender">Male</label><br>
+        <input type="radio" name="gender" value="Female">
+      <label for="gender">Female</label><br>
+      <input type="radio" name="gender" value="Not Saying">
+        <label for="gender">Not Saying</label>
+    </form><br>
+  </div>
+  <!--Sign up section-->
+  <div>
+    <p>Do you want to sign up for the email list?</p>
+    <form>
+      <input type="checkbox">Yes
+    </form><br>
+    <p>Favorite Car:</p>
+    <select name="dropdown">
+      <option value="volvo">Volvo</option>
+      <option value="audi">Audi</option>
+    </select><br>
+    
+    <textarea name="message" id="message" rows="5" required="required">Please, leave a message</textarea><br>
+    <input type= "submit"><br>
+    <a href="/index.html">Go back to home</a>
+    
+  </div>
+</body>
+</html>

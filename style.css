@@ -1,0 +1,54 @@
+body {
+  background-color: aqua;
+  font-family: "poppins" Arial, Helvetica, sans-serif;
+}
+p {
+  margin-right: 60px;
+}
+ul{
+  font-weight: bold;
+}
+table{
+  font-weight: bold;
+}
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 5px;
+}
+span{
+  font-size: 10px;
+  margin-right: 200px;
+  
+}
+.web-design{
+  text-align: left;
+}
+.web-dev{
+  text-align: left;
+}
+.linux-sys{
+  text-align: left;
+}
+.python-class{
+  float: right;
+}
+.videoediting-class{
+  float: right;
+}
+.contentwriting-class{
+  float: right;
+}
+.learning-head{
+  margin-left: 1px;
+  margin-bottom: 0px;
+}
+.entities-span{
+  float: right;
+}
+video{
+  margin-right: 200px;
+  margin: center;
+}
